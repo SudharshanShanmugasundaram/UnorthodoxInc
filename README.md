@@ -7,18 +7,18 @@ Team Unorthodox Inc - EngiNx 2019 - Mental Health Detection by means of Thermal 
 1. Python 3.x
 2. Tensorflow
 3. Keras
+4. Flask
 
 # How To Run
 
-1. Upload the images to test to the folder testimages
-2. Update image.load_img('testimages/{'filename'}', target_size = (64, 64)) in app.py with the image file name
-3. Update open('model/model_architecture.json', 'r') to open('model/model_architecture.json', 'r') in app.py
-4. Update model.load_weights('model.h5') to model.load_weights('model/model.h5') in app.py
-5. Open Command Prompt and run `python app.py` to see the results
+1. Open command prompt and navigate to the app.py location
+2. Run the command `python app.py`
+3. Open any browser and go to https://127.0.0.0:5000/
+4. Upload any image from test_set or testimages folder to test the application
 
 ## Project Description
  
-* Detection of Mental Health diseases with accuracy by means of generating a body heat map of the patient with the help of a thermal camera and applying techniques of image processing and Deep Learning image classification models to measure the magnitude of the detected disease.
+* Detection of Mental Health diseases with accuracy by means of generating a body heat map of the patient with the help of a thermal camera and applying techniques of Image Processing and Deep Learning to measure the magnitude of the detected disease.
 
 ## Dataset !!
 
